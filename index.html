@@ -1,7 +1,333 @@
-<html>
-  <head>
-  </head>
-  <body>
-    <h1>Get Grumpy</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrumPepe - To the Moon and Beyond!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img style="max-width: 90%;" src="grumpepe-header.png" alt="GrumPepe">
+                <br></br>
+                <img style="height: 350px; width: 350px;" src="grumpepe.png" alt="GrumPepe Logo">
+                <h1 style=" text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;">In GrumPepe we trust 🚀</h1>
+                <br></br>
+                <div class="social-icons">
+                    <a href="https://telegram.me/GrumPepeOfficial" target="_blank" class="telegram"><image width="125px" height="125px" src="telegram.png"></image></a>
+                    <a href="https://x.com/GrumPepeMoon" target="_blank" class="twitter"><image width="125px" height="125px" src="twitter.png"></image></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <image style="max-width: 90%;" src="grumpepe-banner.png"></image>
+                <br></br>
+                <h2 >About Grumpepe</h2>
+                <p>In the chaotic and ever-evolving world of cryptocurrencies, where trends come and go faster than a meme can spread, there emerged an unlikely contender: GrumPepe. Born from the collective internet consciousness that classic memes, GrumPepe embodies the perfect blend of cynicism and irreverence that defines meme culture.
+                </p>
+                <br></br>
+                <img src="stonks.png">
+                <p>
+                 GrumPepe stands for resilience in the face of adversity, a grumpy resilience, if you will. When the market dips, GrumPepe holds firm with a scowl. When trends shift, GrumPepe adapts with a wry smile.
+                </p>
+                <br></br>
+                
+            </div>
+        </div>
+    </section>
+    <section id="team" class="team">
+        <div class="container">
+            <div class="team-content">
+                <h2 style="">Community</h2>
+                <h3 style="font-size: 32px;  ">
+                    Embrace the movement and join the GrumPepe community today!
+                </h3>
+                <br></br>
+                <div class="social-icons">
+                    <a href="https://telegram.me/GrumPepeOfficial" target="_blank" class="telegram"><image width="75px" height="75px" src="telegram.png"></image></a>
+                    <a href="https://x.com/GrumPepeMoon" target="_blank" class="twitter"><image width="75px" height="75px" src="twitter.png"></image></a>
+                </div>
+                <br></br>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Disclaimer: GrumPepe is a memecoin created for entertainment purposes and does not represent ownership in any real-world assets or entities. Cryptocurrency investments are inherently risky and speculative. Prices can fluctuate widely and may result in significant losses. It is essential to conduct thorough research and consider your financial situation before investing in GrumpyCoin or any other digital assets. This website does not provide financial advice and should not be construed as such. We recommend consulting with a qualified financial advisor before making any investment decisions.</p>
+            <br></br>
+            <p>© 2024 by GrumPepe $GRUMPEPE. All rights reserved.</p>
+        </div>
+    </footer>
+    <style>
+        .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust as needed */
+}
+
+.social-icons a {
+    font-size: 24px; /* Adjust size as needed */
+    color: #1DA1F2; /* Twitter blue */
+}
+
+.social-icons a.telegram {
+    color: #0088cc; /* Telegram blue */
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(to bottom right, #333333, #00C060);
+    color: #fff;
+    text-align: center;
+    padding: 75px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #222222;
+    color: #fff;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e74c3c;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Roadmap Section */
+.roadmap {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.roadmap h2 {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+
+.roadmap ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.roadmap ul li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Team Section */
+.team {
+    background-color: #00C060;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+
+.team .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.team .team-member {
+    width: 300px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.team .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.team .team-member h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.team .team-member p {
+    font-size: 1.1em;
+    color: #eee;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.contact textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #e74c3c;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+    </style>
+</body>
 </html>
